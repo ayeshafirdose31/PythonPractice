@@ -1,4 +1,5 @@
-#WAP To inp side of a square and its area 
+#WAP to find the occurence of $ and count them 
 
-a=int(input("Enter the area of a square :"))
-area_of_square= print("The area of square is ",a**2)
+a="Mufasa"
+print(a.find("$"))
+print(a.count("$"))

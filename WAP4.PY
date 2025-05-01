@@ -1,5 +1,8 @@
-#WAP to print 2 integer numbers and print True if a is greater than or equal to b
-a=int(input("Enter the number"))
-b=int(input("Enter the number"))
-
-print(a>=b)
+age=int(input("Enter the age : "))
+if age>=18:
+    if age>=80:
+        print("cannot drive")
+    else:
+        print("can drive")
+else:
+    print("not eligible")
