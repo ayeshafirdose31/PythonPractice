@@ -1,5 +1,5 @@
-#WAP to Input sum of 2 numbers 
-a=input("Enter number 1: ")
-b=input("Enter number 2: ")
-sum=a+b
-print("The sum of 2 numbers is",sum)
+#WAP to input users first name and print its length 
+
+name=  input("Enter users first name: ")
+len=len(name)
+print("The length of User's name is ",len)
